@@ -1,0 +1,125 @@
+/*Default (All page)*/
+*
+{
+    font-family: 'Rubik', sans-serif;
+    margin: 0;
+}
+.container 
+{
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+/*intro section*/
+.intro-area
+{
+    height: 670px;
+}
+h1, h2, h3, h4, h5, h6 
+{
+    color: #282828;
+    font-weight: 400;
+    line-height: 1.2; 
+    margin: 0 0 15px;
+}
+p
+{
+    font-size: 17px;
+    line-height: 35px;
+    font-weight: 400;
+    color: #5d5d5d;
+}
+.text-i h1
+{
+    font-size: 60px;
+    line-height: 85px;
+    letter-spacing: 6px;
+}
+.text-i h4 
+{
+    font-size: 20px;
+    letter-spacing: 2.4px;
+}
+/*services section*/
+.services-area
+{
+   height: 304px;
+   margin-top: -178px;
+}
+i
+{
+    font-size: 30px;
+}
+.cards
+{
+    padding: 65px 15px 60px 15px;  
+    box-shadow: 0px 40px 40px 0px rgba(27, 24, 25, 0.04);
+    border-radius: 10px;
+}
+.cards h4
+{
+    font-size: 18px;
+    letter-spacing: 2.7px;
+}
+.cards i
+{
+    margin-bottom: 8px;
+}
+.size-p
+{
+  width: 225px;
+  height: 179px;
+}
+#container-s
+{
+    width: 1170px;
+}
+/*works section*/
+.works-area
+{
+    height: 1260px;
+    padding: 120px 0px 0px 0px;
+    
+}
+.container-text-w
+{
+    margin-bottom: 40px;
+}
+.container-text-w h4
+{
+    font-size: 24px;
+    letter-spacing: 6px;
+}
+.container-btn-w
+{
+    margin-bottom: 65px;
+}
+.container-btn-w button
+{
+  
+    background-color: transparent;
+    cursor: pointer;
+    border: 1px solid transparent;
+    outline: 0;
+    color: #282828;
+    font-size: 12px;
+    letter-spacing: 3px;
+    padding: 0 5px;
+}
+.container-img-w img
+{
+    margin-bottom: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+/* testimonial section*/
+.testimonial-area 
+{
+    padding: 120px 0;
+}
+.container-text-t h2 
+{
+    font-size: 24px;
+    letter-spacing: 6px;
+}
