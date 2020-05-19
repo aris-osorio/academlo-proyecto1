@@ -6,6 +6,10 @@
 {
     align-items: center;
 }
+.aling-center
+{
+    align-self: center;
+}
 .justify-center
 {
     justify-content: center;

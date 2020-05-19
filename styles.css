@@ -1,23 +1,17 @@
 /*Default (All page)*/
 *
 {
-    font-family: 'Rubik', sans-serif;
+    font-family:  sans-serif;
     margin: 0;
-}
-.container 
-{
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto;
 }
 /*intro section*/
 .intro-area
 {
     height: 670px;
 }
-h1, h2, h3, h4, h5, h6 
+h1, h2, h3, h4, h5, h6, button
 {
+    font-family:  Rubik;
     color: #282828;
     font-weight: 400;
     line-height: 1.2; 
@@ -97,15 +91,14 @@ i
 }
 .container-btn-w button
 {
-  
     background-color: transparent;
     cursor: pointer;
     border: 1px solid transparent;
     outline: 0;
     color: #282828;
-    font-size: 12px;
     letter-spacing: 3px;
     padding: 0 5px;
+    margin-top: 5px;
 }
 .container-img-w img
 {
@@ -113,13 +106,123 @@ i
     padding-left: 15px;
     padding-right: 15px;
 }
-/* testimonial section*/
+/*testimonial section*/
 .testimonial-area 
 {
     padding: 120px 0;
+}
+.container-text-t
+{
+    margin-bottom: 70px; 
 }
 .container-text-t h2 
 {
     font-size: 24px;
     letter-spacing: 6px;
+}
+.card-1t
+{
+    width: 23.09%;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.card-1t p
+{
+    font-size: 15px;
+    line-height: 30px;
+    margin-top: -5px;
+    color: #5d5d5d;
+}
+.card-1t h5
+{
+    font-size: 16px;
+    letter-spacing: 2.1px;
+}
+.card-1t h6 
+{
+    font-size: 11px;
+    letter-spacing: 1.65px;
+    color: #878787;
+}
+/*News section*/
+.news-area
+{
+    padding: 120px 0;
+}
+.m-area
+{
+    margin-left: 230px;
+    margin-right: 200px;
+}
+.m-area2
+{
+    margin-left: 230px;
+    margin-right: 240px;
+}
+.container-text-1n
+{
+    margin-bottom: 70px;
+}
+.container-text-1n h2
+{
+    font-size: 24px;
+    letter-spacing: 6px;
+}
+.p-text1
+{
+    padding-left: 100px;
+}
+.p-text2
+{
+    padding-left: 100px;
+}
+.title-2n
+{
+    font-size: 18px;
+    letter-spacing: 2.7px;
+}
+.date-2n
+{
+    font-size: 11px;
+    letter-spacing: 1.65px;
+    margin-bottom: 15px;
+}
+.text-2n
+{
+    margin-bottom: 10px;
+}
+.link-1n
+{
+    color: #111111;
+    text-decoration: none;
+    font-size: 13px;
+    letter-spacing: 1.95px;
+    line-height: 21px;
+    padding: 0 8px;
+}
+/*footer*/
+.footer-area
+{
+    padding-top: 110px;
+    padding-bottom: 110px;
+}
+.footer-area h5
+{
+    font-size: 14px;
+    letter-spacing: 2.1px;
+}
+.container-img-1f
+{
+    margin-right: 100px;
+}
+.container-aboutf
+{
+    width: 320px;
+    height: 102px;
+}
+.container-contact a
+{
+    text-decoration: none;
 }

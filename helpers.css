@@ -6,6 +6,18 @@
 {
     background-color: #fff;
 }
+.bg-black
+{
+    background-color: #111111;
+}
+.text-white
+{
+    color: #fff!important;
+}
+.text-gray
+{
+    color: #ababab;
+}
 .h-100 
 {
     height: 100%;
@@ -25,5 +37,33 @@
 .text-center
 {
     text-align: center;
+}
+.mleft-10
+{
+   margin-left: 10px;
+}
+.mbotton-20
+{
+    margin-bottom: 20px;
+}
+.mleft-t
+{
+    margin-left: 50px;
+}
+.mright-t
+{
+    margin-right: 50px;
+    margin-left: 30px;
+}
+.mbottom-60
+{
+    margin-bottom: 60px;
+}
+.container 
+{
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
 }
 
