@@ -6,46 +6,58 @@
     <link rel="icon"  type="image/png" href="/files/logo-black.png">
     <title>Home Four || RM</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="layout.css">
+    <link rel="stylesheet" href="helpers.css">
     <script src="https://kit.fontawesome.com/6bc4071949.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <div class="f-box">
-        <div class="intro">
-            <h1>WE ARE DIGITAL
+    <div id="box">
+        <section id="intro" class="intro-area bg-gray relative d-flex items-center justify-center text-center">
+            <div class="text-i">
+                <h1>WE ARE DIGITAL
                 <br>CRAFTERS FROM CANADA</br>
-            </h1>
-            <h5>Praesent Sed Nisi Eleifend UX & UI Designr.</h5>
-        </div>
-        <div class="services">
-            <div class="packaging">
-                <div class="container-p">
+                </h1>
+                <h4>Praesent Sed Nisi Eleifend UX & UI Designr.</h4> 
+            </div>
+        </section>
+        <section id="services" class="services-area">
+          <div id="container-s" class="container text-center d-flex justify-evenly relative">
+            <div class="cards bg-white">
+                <div class="size-p">
+                    <i class="fas fa-box-open"></i>
                     <h4 class="title-p">Packaging</h4>
                     <p class="text-p">The point of using Lorem Ipsum is that more-or-less normal more than.</p>
                 </div>
             </div>
-            <div class="branding">
-                <div class="container-b">
+            <div class="cards bg-white">
+                <div class="size-p">
+                    <i class="fas fa-ring"></i>
                     <h4 class="title-b">Branding</h4>
                     <p class="text-b">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error, rerum!</p>
                 </div>
             </div>
-            <div class="logo">
-                <div class="container-l">
+            <div class="cards bg-white">
+                <div class="size-p">
+                    <i class="fas fa-eye"></i>
                     <h4 class="title-l">Logo & Identity</h4>
                     <p class="text-l">Quibusdam recusandae magnam laudantium vel iure voluptates veniam autem.</p>
                 </div>
             </div>
-            <div class="strategy">
-                <div class="container-s">
+            <div class="cards bg-white">
+                <div class="size-p">
+                    <i class="fas fa-truck"></i>
                     <h4 class="title-s">Strategy</h4>
                     <p class="text-s">Facere quas odio repellat id et, distinctio commodi quam necessitatibus sint.</p>
                 </div>
             </div>
-        </div>
-        <div class="works">
+          </div>
+        </section>
+        <section id="works" class="works-area  text-center">
             <div class="container-text-w">
-                <h4 class="title-w">LATEST WORKS</h4>
-                <p class="text-w">The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content</p>
+                <h4>LATEST WORKS</h4>
+                <p>The point of using Lorem Ipsum is that it has a more-or-less normal distribution
+                    <br>of letters, as opposed to using 'Content here, content </br>
+                </p>
             </div>
             <div class="container-btn-w">
                 <button type="button" class="btn btn-all-w">ALL</button>
@@ -54,36 +66,49 @@
                 <button type="button" class="btn btn-new-w">NEW</button>
                 <button type="button" class="btn btn-print-w">PRINT</button>
             </div>
-            <div class="container-img-w">
-                <div class="img-1w"><img src="/files/1.jpg" alt="Moki"></img></div>
-                <div class="img-2w"><img src="/files/2.jpg" alt="Back-pack"></img></div>
-                <div class="img-3w"><img src="/files/3.jpg" alt="Shoe"></div>
-                <div class="img-4w"><img src="/files/4.jpg" alt="Box"></div>
-                <div class="img-5w"><img src="/files/5.jpg" alt="Note"></div>
-                <div class="img-6w"><img src="/files/6.jpg" alt="sheet"></div>
+            <div class=" d-flex justify-center">
+                <div class="container-img-w d-flex">
+                    <div>
+                        <div><img src="/files/1.jpg" alt="Moki"></img></div>
+                        <div><img src="/files/4.jpg" alt="Box"></div>
+                    </div>
+                    <div>
+                        <div><img src="/files/2.jpg" alt="Back-pack"></img></div>
+                        <div><img src="/files/6.jpg" alt="sheet"></div>
+                    </div>
+                    <div>
+                        <div><img src="/files/3.jpg" alt="Shoe"></div>
+                        <div><img src="/files/5.jpg" alt="Note"></div>     
+                    </div>
+            </div>        
+        </section>
+        <section id="testimonial" class="bg-gray testimonial-area">
+            <div class="container-text-t text-center">
+                <h2 class="title-t">TESTIMONIAL</h2>
+                <p class="text-t">It has survived not only five centuries, but also the leap into electronic typesetting, 
+                    <br>but also the leap into electronic typesetting,<br>
+                </p>
             </div>
-        </div>
-        <div class="testimonial">
-            <div class="container-title-t">
-                <h1 class="title-t">TESTIMONIAL</h1>
-                <p class="text-t">It has survived not only five centuries, but also the leap into electronic typesetting, but also the leap into electronic typesetting,</p>
-            </div>
-            <div class="container-cards-t">
-                <div class="card-1t">
+            <div class="container-cards-t d-flex">
+                <div class="card-1t bg-white">
                     <p class="text-1t">The point of using Lorem Ipsum is thamore-or-less normal distribution of letters, as opposed to ntent here, content use to color.</p>
-                    <h5 class="name-1t">Rakib mia</h5>
-                    <h6 class="job-1t">/ Developer</h6>
+                    <div>
+                        <h5 class="name-1t">Rakib mia</h5>
+                        <h6 class="job-1t">/ Developer</h6>
+                    </div>
                 </div>
                 <div class="card-2t">
-                    <p class="text-1t">The point of using Lorem Ipsum is thamore-or-less normal distribution of letters, as opposed to ntent here, content use to color.</p>
-                    <h5 class="name-1t">Rakib mia</h5>
-                    <h6 class="job-1t">/ Developer</h6>
+                    <p class="text-2t">The point of using Lorem Ipsum is thamore-or-less normal distribution of letters, as opposed to ntent here, content use to color.</p>
+                    <div>
+                        <h5 class="name-2t">Rakib mia</h5>
+                        <h6 class="job-2t">/ Developer</h6>
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="news">
+        </section>
+        <section id="news">
             <div class="container-text-1n">
-                <h1 class="title-1n">Latest News</h1>
+                <h2 class="title-1n">Latest News</h2>
                 <p class="text-1n">The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content</p>
             </div>
             <div class="container-img-1n">
@@ -104,8 +129,8 @@
             <div class="container-img-1n">
                 <img src="/files/21.jpg" alt="Man"></img>
             </div>
-        </div>
-        <div class="footer">
+        </section>
+        <section id="footer">
             <div class="container-img-1f">
                 <img src="/files/logo-white.png" alt="Logo-white"></img>
             </div>
@@ -119,7 +144,7 @@
                 <p class="text-2f">Email : <a class="link-2f" href="#">Demo@Mail.Com</a></p>
                 <p class="text-3f">Address : Your Location Name, New Canada.</p>
             </div>
-        </div>
+        </section>
     </div>
 </body>
 </html>
