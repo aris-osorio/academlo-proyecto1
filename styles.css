@@ -7,7 +7,7 @@
 /*intro section*/
 .intro-area
 {
-    height: 670px;
+    height: 657px;
 }
 h1, h2, h3, h4, h5, h6, button
 {
@@ -33,7 +33,7 @@ p
 .text-i h4 
 {
     font-size: 20px;
-    letter-spacing: 2.4px;
+    letter-spacing: 2.7px;
 }
 /*services section*/
 .services-area
