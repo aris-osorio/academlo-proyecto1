@@ -6,3 +6,26 @@
     width: 225px;
     height: 179px;
 }
+.button-w
+{
+    padding: 1px 45px 0 45px;
+    line-height: 50px;
+    font-size: 14px;
+    letter-spacing: 3.5px;
+    border-radius: 0;
+    user-select: none;
+    background-color: transparent;
+    border: 1px solid transparent;
+    color: #111111;
+    border-color: #111111;
+    display: inline-block;
+    font-weight: 400;
+    text-decoration: none;
+}
+.container 
+{
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
