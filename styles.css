@@ -87,7 +87,6 @@ i
 .container-li-w
 {
     padding-left: 0;
-    list-style: none;
     margin-bottom: 74px;
 }
 .container-li-w li
@@ -97,7 +96,6 @@ i
     letter-spacing: 3px;
     cursor: pointer;
     padding: 0 4.78px;
-    position: relative;
 }
 .container-li-w li:not(:last-child) 
 {
@@ -183,14 +181,7 @@ i
 {
     font-size: 24px;
     letter-spacing: 6px;
-}
-.card-1t
-{
-    width: 23.09%;
-    padding-left: 50px;
-    padding-right: 50px;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-bottom: 5px;
 }
 .card-1t p
 {
@@ -209,6 +200,16 @@ i
     font-size: 11px;
     letter-spacing: 1.65px;
     color: #878787;
+}
+.slick-dots
+{
+    list-style: none;
+    margin: 76px 0 0 0;
+    padding: 0;
+}
+.slick-dots li 
+{   
+    padding: 0 7px;
 }
 /*News section*/
 .news-area

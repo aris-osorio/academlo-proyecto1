@@ -1,3 +1,10 @@
+.container 
+{
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
 .cards
 {
     padding: 65px 15px 60px 15px;
@@ -22,10 +29,21 @@
     font-weight: 400;
     text-decoration: none;
 }
-.container 
+.card-1t
+{  
+    width: 330px;
+    height: 124px;
+    padding: 50px 50px 50px 50px;
+    border-radius: .25rem;
+}
+.slick-dots button
 {
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto;
+    border: 2px solid #d4d4d4;
+    background: transparent;
+    width: 15px;
+    height: 15px;
+    font-size: 0;
+    border-radius: 50%;
+    margin: 0;
+    padding: 0;
 }

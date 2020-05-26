@@ -50,15 +50,6 @@
 {
     margin-bottom: 20px;
 }
-.mleft-t
-{
-    margin-left: 50px;
-}
-.mright-t
-{
-    margin-right: 50px;
-    margin-left: 30px;
-}
 .mbottom-60
 {
     margin-bottom: 60px;
@@ -66,4 +57,16 @@
 .mtop-60
 {
     margin-top: 60px;
+}
+.p-left
+{
+    left: -30px;
+}
+.p-right
+{
+    right: -60px;
+}
+.list-none
+{
+    list-style:none; 
 }
