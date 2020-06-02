@@ -223,7 +223,7 @@ i
 }
 .m-area2
 {
-    margin-left: 230px;
+    margin-left: 229.5px;
     margin-right: 240px;
 }
 .container-text-1n
@@ -234,29 +234,32 @@ i
 {
     font-size: 24px;
     letter-spacing: 6px;
+    padding-bottom: 5px;
 }
 .p-text1
 {
-    padding-left: 100px;
+    padding-left: 94.5px;
+    margin-bottom: 12px;
 }
 .p-text2
 {
-    padding-left: 100px;
+    margin-bottom: 12px;
 }
 .title-2n
 {
     font-size: 18px;
     letter-spacing: 2.7px;
+    margin-bottom: 14px;
 }
 .date-2n
 {
     font-size: 11px;
     letter-spacing: 1.65px;
-    margin-bottom: 15px;
+    margin-bottom: 25px;
 }
 .text-2n
 {
-    margin-bottom: 10px;
+   margin-bottom: 16px;
 }
 .link-1n
 {
@@ -266,6 +269,12 @@ i
     letter-spacing: 1.95px;
     line-height: 21px;
     padding: 0 8px;
+    position: relative;
+}
+.container-img-2n
+{
+    padding-right: 4px;
+    padding-left: 100px;
 }
 /*footer*/
 .footer-area
